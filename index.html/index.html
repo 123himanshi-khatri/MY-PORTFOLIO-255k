@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my personal portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://kit.fontawesome.com/0190df52d8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="https://t4.ftcdn.net/jpg/04/51/74/43/360_F_451744391_932DU0eXgGbpDZhcemuTjz1jTlqiCuIF.jpg"
+          height="100PX width100px">
+        <ul>
+          <li><a href="#header"> Home</a></li>
+          <li><a href="#about"> About</a></li>
+          <li><a href="#services"> Services</a></li>
+          <li><a href="#portfolio"> Portfolio</a></li>
+          <li><a href="#contact"> Contact</a></li>
+          <!-- <i class="fa-solid fa-circle-xmark"></i> -->
+        </ul>
+        <!-- <i class="fa-solid fa-bars"></i> -->
+
+      </nav>
+      <div class="header-text">
+        <p>Software Developer </p>
+        <h1>Hi,I'm <span>Himanshi</span><br>From India</h1>
+
+      </div>
+    </div>
+  </div>
+  <!-- ------------------about ------------------------>
+  <div id="about">
+    <div class=" container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd79vLgTevvM660Nk6lT-pt3ZZQcY7WnxSpQ&s"
+            alt="random" height="500px" width="500">
+        </div>
+        <div class="about-col-2">
+          <h1 class="subtitle">About ME</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing<br> elit. Vitae et quia suscipit similique minima atque
+            illo voluptatum dolores corrupti ratione? Atque esse eius quia placeat et aliquam odit autem debitis.</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link  " onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab " id="skills">
+            <ul>
+              <li><span> Web developer</span><br>Designing Web Application Interfaces <br>Front-end: HTML, CSS,
+                JavaScript frameworks (React, Angular, Vue.js).
+                <br>Back-end: Node.js, Django, Flask, Ruby on Rails.
+                <br>Full-stack development experience (MEAN, MERN).
+              </li>
+              <li><span></span><br></li>
+              <li><span> Software Development</span><br>Experience in full software development lifecycle (SDLC).
+                <br>Agile methodologies (Scrum, Kanban).
+                <br>Version control (Git, GitHub, GitLab).
+              </li>
+            </ul>
+
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>#1234 Web developer</span><br>Designing Web Application Interfaces</li>
+              <li><span> Web developer</span><br>Designing Web Application Interfaces</li>
+              <li><span> Web developer</span><br>Designing Web Application Interfaces</li>
+            </ul>
+
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span> #5869568Web developer</span><br>Designing Web Application Interfaces</li>
+              <li><span> Web developer</span><br>Designing Web Application Interfaces</li>
+              <li><span> Web developer</span><br>Designing Web Application Interfaces</li>
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- --------------------services------------------- -->
+  <div id="services">
+    <div class="container">
+      <h1 class="subtitle">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>
+            Web Design
+          </h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis veniam quibusdam impedit nobis rerum
+            velit, voluptatum, repudiandae laudantium vitae obcaecati, eveniet explicabo. Sunt porro totam, quas dolore
+            perferendis officia ratione.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop"></i>
+          <h2>
+            App Development
+          </h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis veniam quibusdam impedit nobis rerum
+            velit, voluptatum, repudiandae laudantium vitae obcaecati, eveniet explicabo. Sunt porro totam, quas dolore
+            perferendis officia ratione.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-regular fa-square-plus"></i>
+          <h2>
+            Full stack
+          </h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis veniam quibusdam impedit nobis rerum
+            velit, voluptatum, repudiandae laudantium vitae obcaecati, eveniet explicabo. Sunt porro totam, quas dolore
+            perferendis officia ratione.</p>
+          <a href="#">Learn more</a>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <!-- ---------------portfolio-------------------- -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="subtitle">
+        My Work
+      </h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd79vLgTevvM660Nk6lT-pt3ZZQcY7WnxSpQ&s"
+            alt="random" height="500px" width="500">
+          <div class="layer">
+            <h3>
+              Social Media App
+            </h3>
+            <p>loorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, tenetur delectus commodi vero
+              vitae nostrum possimus.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd79vLgTevvM660Nk6lT-pt3ZZQcY7WnxSpQ&s"
+            alt="random" height="500px" width="500">
+          <div class="layer">
+            <h3>
+              Social Media App
+            </h3>
+            <p>loorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, tenetur delectus commodi vero
+              vitae nostrum possimus.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+
+        </div>
+        <div class="work">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd79vLgTevvM660Nk6lT-pt3ZZQcY7WnxSpQ&s"
+            alt="random" height="500px" width="500">
+          <div class="layer">
+            <h3>
+              Social Media App
+            </h3>
+            <p>loorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, tenetur delectus commodi vero
+              vitae nostrum possimus.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+
+  </div>
+  <!-- ---------------------contact-------------------- -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left ">
+          <h1 class="subtitle">Contact Me</h1>
+          <p> <i class="fa-solid fa-paper-plane"></i>conatct@example.com</p>
+          <p><i class="fa-solid fa-phone"> </i>09934395495</p>
+          <br>
+          <br>
+          <br>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/himanshi-khatri-033220289/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/home"><i class="fa-brands fa-twitter"></i></a>
+
+          </div>
+
+          <a href="CV  2.pdf" download class="btn btn2">Download CV</a>
+        </div>
+
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" Name="email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class=" btn btn2">Submit</button>
+
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="copyright">
+      <p>copyright &copy; Himanshi Khatri <i class="fa-solid fa-heart"></i>portfolio . All rights reserved 2024 </p>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab")
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyL1ngcPSAGcqTpFakRJU3QbRUnuWEcGp5UGKHpvrX5oax6iVofTaCuzbrqlEsYWe8/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          msg.innerHTML="Message sent successfully"
+          setTimeout(function(){
+            msg.innerHTML=""
+          },5000)
+          form.reset()
+
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+
+</html>
